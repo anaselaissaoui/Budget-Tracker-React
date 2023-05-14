@@ -1,0 +1,91 @@
+// import {AppContext} from "../Context/AppContext"
+// import { useContext } from 'react';
+// import React from 'react';
+// import {
+//   Chart as ChartJS,
+//   CategoryScale,
+//   LinearScale,
+//   PointElement,
+//   LineElement,
+//   Title,
+//   Tooltip,
+//   Legend,
+// } from 'chart.js';
+// import { Line } from 'react-chartjs-2';
+// // import { faker } from '@faker-js/faker'
+
+// ChartJS.register(
+//   CategoryScale,
+//   LinearScale,
+//   PointElement,
+//   LineElement,
+//   Title,
+//   Tooltip,
+//   Legend
+// );
+
+// // export 
+
+
+// const ChartLine = () => {
+//   const { transactions } = useContext(AppContext);
+
+//   const labels = transactions.map((transaction) => transaction.date).reverse();
+  
+//   const incomeTransactions = transactions
+//   .filter((transaction) => transaction.category === "Income")
+//   .map((transaction) => transaction.cost);
+//   const outcomeTransactions = transactions
+//   .filter((transaction) => transaction.category !== "Income")
+//   .map((transaction) => transaction.cost);
+  
+//   // const transactionCosts = transactions.map((transaction) => transaction.cost);
+
+//   const options = {
+//     responsive: true,
+//     plugins: {
+//       legend: {
+//         position: 'top'
+//       },
+//       title: {
+//         display: true,
+//         text: 'Budget tracker',
+//         color:'rgb(200,238,68)', 
+       
+//         font:{
+//            size:50,
+//            backgroundColor:"rgb(64,64,64)",
+//         }
+//       },
+//     },
+//   };
+//   const data = {
+//     labels:labels,
+//     datasets: [
+//       {
+//         label: 'Budget',
+//         data: incomeTransactions,
+//         borderColor: 'rgb(255, 99, 132)',
+//         backgroundColor: 'rgba(255, 99, 132, 0.5)',
+//       },
+//       {
+//         label: 'Expenses',
+//         data: outcomeTransactions,
+//         borderColor: 'rgb(53, 162, 235)',
+//         backgroundColor: 'rgba(53, 162, 235, 0.5)',
+//       },
+//     ],
+//   };
+
+//     return(
+//       <Line options={options} data={data} />
+//     )
+//   }
+
+
+// export default ChartLine
+
+
+
+
+// i have an object that store my transactions so i want create  a line chart that track my budget by date  with 2 line one my income and other for outcome they so from my object my income is category income and my outcome is others , so create a chart with rechart.js 
