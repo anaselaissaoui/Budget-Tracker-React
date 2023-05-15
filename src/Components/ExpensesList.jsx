@@ -24,12 +24,12 @@ const ExpensesList = () => {
   };
 
   return (
-    <table className="w-5/6  mx-auto my-10 text-center justify-self-center text-gray-500 dark:text-gray-400">
-      <thead className="border-b bg-mainColor font-medium dark:border-neutral-500 dark:text-neutral-800">
+    <table className="w-full border-solid border-2 border-mainColor my-10 text-center justify-self-center text-gray-500">
+  <thead className="border-b rounded-t-md bg-mainColor font-medium text-slate-800">
         <tr>
           <th
             scope="col"
-            className="px-6 py-4 cursor-pointer"
+            className="px-6 py-4  cursor-pointer"
             onClick={handleSortClick}
           >
             Name

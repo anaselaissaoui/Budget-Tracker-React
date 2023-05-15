@@ -4,7 +4,7 @@ const ExpenseItem = (props) => {
   const { category } = props;
 
   const rowStyle =
-    category === "Income" ? "text-green-800" : "text-red-500";
+    category === "Income" ? "text-green-600" : "text-red-500";
   const costSign = category === "Income" ? "+" : "-";
   
 

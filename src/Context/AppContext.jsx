@@ -58,7 +58,7 @@ const initialState = {
       description: "Received salary for the month",
       category: "Income",
       cost: 5000,
-      date: new Date("2023-05-15").toLocaleDateString('en-GB').split('/').reverse().join('-'),
+      date: new Date("2022-12-15").toLocaleDateString('en-GB').split('/').reverse().join('-'),
       type: "Income",
     },
     {

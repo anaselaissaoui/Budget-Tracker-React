@@ -14,14 +14,14 @@ const Budget = () => {
 
   return (
     <div className="flex justify-evenly mt-20">
-      <div className="block rounded-lg  px-8 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
+      <div className="block rounded-lg  px-8 shadow-lg  hover:shadow-lg shadow-green-800  hover:shadow-mainColor bg-neutral-700">
         
-        <div className="p-6">
+        <div className="p-6 ">
           <h5 className="mb-2 leading-tight text-slate-500">
             Total Balance
           </h5>
           <div className="flex justify-content-start">
-          <div className="rounded-full bg-slate-600">
+          <div className="rounded-full bg-slate-600 ">
           <img
             className="h-10 p-2"
             src={image1}
@@ -34,7 +34,7 @@ const Budget = () => {
         </div>
       </div>
 
-      <div className="block rounded-lg  px-8 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-200">
+      <div className="block rounded-lg  px-8 shadow-lg  hover:shadow-lg shadow-red-500  hover:shadow-mainColor bg-neutral-200">
         
         <div className="p-6">
           <h5 className="mb-2 leading-tight text-slate-500">
