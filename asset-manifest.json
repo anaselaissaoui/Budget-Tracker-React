@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Budget-Tracker-React/static/css/main.90a6f4a4.css",
+    "main.js": "/Budget-Tracker-React/static/js/main.317dd2ff.js",
+    "static/media/Background-login.jpg": "/Budget-Tracker-React/static/media/Background-login.be2d4f74ef9ab57158ca.jpg",
+    "index.html": "/Budget-Tracker-React/index.html",
+    "main.90a6f4a4.css.map": "/Budget-Tracker-React/static/css/main.90a6f4a4.css.map",
+    "main.317dd2ff.js.map": "/Budget-Tracker-React/static/js/main.317dd2ff.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.90a6f4a4.css",
+    "static/js/main.317dd2ff.js"
+  ]
+}
